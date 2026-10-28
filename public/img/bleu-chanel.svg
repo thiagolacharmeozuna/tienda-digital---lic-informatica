@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Frasco CHANEL">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e6ebf2"/><stop offset="1" stop-color="#bcc8da"/>
+    </linearGradient>
+    <linearGradient id="vidrio" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f2347"/><stop offset=".45" stop-color="#1d4180"/>
+      <stop offset=".72" stop-color="#3f6fb8"/><stop offset="1" stop-color="#0f2347"/>
+    </linearGradient>
+    <linearGradient id="tapa" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1b1b1d"/><stop offset=".4" stop-color="#4a4a4f"/><stop offset="1" stop-color="#1b1b1d"/>
+    </linearGradient>
+    <radialGradient id="suelo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#000" stop-opacity=".28"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#fondo)"/>
+  <circle cx="200" cy="270" r="168" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.5"/>
+  <circle cx="200" cy="270" r="140" fill="#fff" fill-opacity=".14"/>
+  <ellipse cx="200" cy="452" rx="130" ry="14" fill="url(#suelo)"/>
+  <rect x="108" y="200" width="184" height="240" rx="12" fill="url(#vidrio)"/>
+  <rect x="120" y="212" width="16" height="216" rx="8" fill="#fff" opacity=".22"/>
+  <rect x="174" y="172" width="52" height="32" fill="url(#tapa)"/>
+  <rect x="162" y="96" width="76" height="80" rx="5" fill="url(#tapa)"/>
+  <rect x="140" y="300" width="120" height="70" fill="#fbf7ee" fill-opacity=".92"/>
+  <rect x="144" y="304" width="112" height="62" fill="none" stroke="#a9812f" stroke-opacity=".7" stroke-width=".8"/>
+  <text x="200" y="333.0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="1.6" fill="#231a13">CHANEL</text>
+  <text x="200" y="349.0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="9" fill="#6b5a45">Eau de Parfum · 100 ml</text>
+</svg>

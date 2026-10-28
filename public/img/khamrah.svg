@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500" role="img" aria-label="Frasco LATTAFA">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f1e1c8"/><stop offset="1" stop-color="#d6b283"/>
+    </linearGradient>
+    <linearGradient id="vidrio" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#4a2410"/><stop offset=".45" stop-color="#7d4620"/>
+      <stop offset=".72" stop-color="#b4773d"/><stop offset="1" stop-color="#4a2410"/>
+    </linearGradient>
+    <linearGradient id="tapa" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7b5a17"/><stop offset=".4" stop-color="#e0bd5a"/><stop offset="1" stop-color="#7b5a17"/>
+    </linearGradient>
+    <radialGradient id="suelo" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#000" stop-opacity=".28"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="500" fill="url(#fondo)"/>
+  <circle cx="200" cy="270" r="168" fill="none" stroke="#fff" stroke-opacity=".45" stroke-width="1.5"/>
+  <circle cx="200" cy="270" r="140" fill="#fff" fill-opacity=".14"/>
+  <ellipse cx="200" cy="452" rx="130" ry="14" fill="url(#suelo)"/>
+  <path d="M200 178 C172 178 170 208 162 236 C122 276 106 332 126 388 C140 428 176 444 200 444 C224 444 260 428 274 388 C294 332 278 276 238 236 C230 208 228 178 200 178 Z" fill="url(#vidrio)"/>
+  <path d="M134 330 Q132 290 160 262" stroke="#fff" stroke-width="11" stroke-linecap="round" fill="none" opacity=".25"/>
+  <rect x="183" y="150" width="34" height="34" fill="url(#tapa)"/>
+  <path d="M200 66 C206 80 208 92 208 104 C236 108 244 132 234 152 L166 152 C156 132 164 108 192 104 C192 92 194 80 200 66 Z" fill="url(#tapa)"/><circle cx="200" cy="64" r="8" fill="url(#tapa)"/>
+  <rect x="152" y="322" width="96" height="56" fill="#fbf7ee" fill-opacity=".92"/>
+  <rect x="156" y="326" width="88" height="48" fill="none" stroke="#a9812f" stroke-opacity=".7" stroke-width=".8"/>
+  <text x="200" y="348.0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="12" letter-spacing="1.6" fill="#231a13">LATTAFA</text>
+  <text x="200" y="364.0" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="9" fill="#6b5a45">Eau de Parfum · 100 ml</text>
+</svg>

@@ -1,0 +1,127 @@
+:root {
+  --fondo: #f4ede1;
+  --papel: #fbf8f2;
+  --tinta: #1f1a15;
+  --tinta-suave: #5d5348;
+  --linea: #dcd0bd;
+  --oud: #231a13;
+  --laton: #a9812f;
+  --laton-oscuro: #7b5a17;
+  --laton-claro: #d8b863;
+  --terracota: #a3412b;
+
+  --serif: 'Cormorant Garamond', 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --sans: 'Jost', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--tinta);
+  background: var(--fondo);
+  -webkit-font-smoothing: antialiased;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--serif);
+  font-weight: 600;
+  line-height: 1.1;
+  letter-spacing: -0.01em;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+.contenedor {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 4vw, 40px);
+}
+
+.etiqueta {
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--laton-oscuro);
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.85rem 1.5rem;
+  border: 1px solid var(--oud);
+  background: var(--oud);
+  color: var(--papel);
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
+}
+
+.btn:hover:not(:disabled) {
+  background: var(--laton-oscuro);
+  border-color: var(--laton-oscuro);
+}
+
+.btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.btn-borde {
+  background: transparent;
+  color: var(--oud);
+}
+
+.btn-borde:hover:not(:disabled) {
+  background: var(--oud);
+  border-color: var(--oud);
+  color: var(--papel);
+}
+
+:focus-visible {
+  outline: 2px solid var(--laton);
+  outline-offset: 2px;
+}
+
+@media print {
+  .sitio,
+  .aviso {
+    display: none !important;
+  }
+}
