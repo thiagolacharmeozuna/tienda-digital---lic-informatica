@@ -1,8 +1,11 @@
 # Ámbar & Oud · Tienda virtual por componentes
 
-#Integrantes
+# Integrantes
+
 thiago lacharme ozuna
+
 isaac miranda castillo
+
 alejandro kelsey galvan
 
 Actividad práctica de **Fundamentos de programación · Vue 3**: comunicación entre componentes con
